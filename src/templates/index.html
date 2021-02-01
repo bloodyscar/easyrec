@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Your Very Handsome Website</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="images/content/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="./css/app.minify.css" />
+    <link rel="icon" href="images/content/favicon.png" />
+
+    <meta name="theme-color" content="#000" />
+  </head>
+
+  <body>
+    <!-- Add your site or application content here -->
+
+    <!-- START Header  -->
+    <header class="bg-green-800 w-full py-6">
+      <div class="container mx-auto md:flex justify-between items-center">
+        <div class="flex justify-between items-center">
+          <a href=""><h1 class="ml-2 md:ml-0 text-3xl text-white">easyRec</h1></a>
+          <svg class="w-6 h-6 mr-3 md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path class="text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </div>
+        <div>
+          <ul class="hidden md:flex items-center mt-4">
+            <li class="hover:underline py-3"><a class="px-6 text-white" href="#">Recipes</a></li>
+            <li class="hover:underline py-3"><a class="px-6 text-white" href="#">Chef</a></li>
+            <li class="hover:underline py-3"><a class="px-6 text-white" href="#">Beverages</a></li>
+            <li class="hover:underline py-3"><a class="px-6 text-white" href="#">Food</a></li>
+            <li class="hover:underline py-3"><a class="px-6 text-white" href="#">Stories</a></li>
+            <button class="ml-3 py-3 px-6 bg-white hover:bg-gray-100 rounded-lg">Login</button>
+          </ul>
+          
+        </div>
+      </div>
+    </header>
+    <!-- END Header  -->
+
+    <!-- START Hero section -->
+    <section class="container mx-auto w-full md:flex justify-between items-center md:mb-32">
+      <div class="mt-32 md:mt-0 w-full md:w-1/2 absolute z-20 text-center md:text-left md:relative md:pl-10 flex flex-col justify-center">
+        <h1 class="md:text-5xl text-2xl font-semibold leading-tight text-white md:text-black">Learn every Recipe <br> Food with us</h1>
+        <p class="md:text-lg mt-3 text-white md:text-black">When you create something that cooked by<br>
+          yourself, you will be proud</p>
+        <div class="mt-6">
+          <a href="#trending" class="bg-green-800 hover:bg-green-700 py-3 px-6 rounded-xl text-white">Explore Recipe</a>
+        </div>
+      </div>
+      <div class="md:mt-20 w-full md:w-1/2 relative md:mr-10 shadow-xl rounded-xl hero-image overlay">
+        <img class="w-full object-center object-cover h-full rounded-xl shadow-sm" src="../images/content/hero.png" />
+      </div>
+    </section>
+    <!-- END Hero section -->
+
+    <!-- START trending section  -->
+    <section class="container mx-auto" id="trending">
+        <div class="md:py-12">
+          <h1 class="text-3xl font-semi-bold">What we're cooking now</h1>
+        </div>
+        <div class="w-full flex">
+          <!-- START item 1  -->
+          <div class="card md:w-1/4 px-4 ">
+            <div>
+              <img src="../images/content/trending-1.jpg" class="w-full h-full object-center object-cover rounded-xl hover:shadow-lg transition duration-300"/>
+            </div>
+            <div class="flex flex-col text-center">
+              <h5 class="text-gray-400 mt-2">By <span class="font-semibold">Amarta Christie</span></h5>
+              <h3 class="text-2xl">Alasan King Crab</h3>
+              <p class="text-gray-400 mt-2">Alaskan King Crab steamed briefly and served with melted butter.</p>
+              
+            </div>
+          </div>
+          <!-- START item 1  -->
+
+          <!-- START item 2  -->
+          <div class="card md:w-1/4 px-4">
+            <div>
+              <img src="../images/content/trending-2.jpg" class="w-full h-full object-center object-cover rounded-xl hover:shadow-lg transition duration-300"/>
+            </div>
+            <div class="flex flex-col text-center">
+              <h3 class="text-2xl">Guacamolee</h3>
+              <p class="text-sm text-gray-400 flex justify-center mt-2">Beginner <svg width="74" height="22" viewBox="0 0 74 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0489 2.92705C10.3483 2.00574 11.6517 2.00574 11.9511 2.92705L13.2451 6.90983C13.379 7.32185 13.763 7.60081 14.1962 7.60081H18.3839C19.3527 7.60081 19.7554 8.84043 18.9717 9.40983L15.5838 11.8713C15.2333 12.126 15.0866 12.5773 15.2205 12.9894L16.5146 16.9721C16.8139 17.8934 15.7595 18.6596 14.9757 18.0902L11.5878 15.6287C11.2373 15.374 10.7627 15.374 10.4122 15.6287L7.02426 18.0902C6.24054 18.6596 5.18607 17.8934 5.48542 16.9721L6.7795 12.9894C6.91338 12.5773 6.76672 12.126 6.41623 11.8713L3.02827 9.40983C2.24456 8.84043 2.64734 7.60081 3.61606 7.60081H7.8038C8.23703 7.60081 8.62099 7.32185 8.75486 6.90983L10.0489 2.92705Z" fill="#F7C531"/>
+                <path d="M36.0489 2.92705C36.3483 2.00574 37.6517 2.00574 37.9511 2.92705L39.2451 6.90983C39.379 7.32185 39.763 7.60081 40.1962 7.60081H44.3839C45.3527 7.60081 45.7554 8.84043 44.9717 9.40983L41.5838 11.8713C41.2333 12.126 41.0866 12.5773 41.2205 12.9894L42.5146 16.9721C42.8139 17.8934 41.7595 18.6596 40.9757 18.0902L37.5878 15.6287C37.2373 15.374 36.7627 15.374 36.4122 15.6287L33.0243 18.0902C32.2405 18.6596 31.1861 17.8934 31.4854 16.9721L32.7795 12.9894C32.9134 12.5773 32.7667 12.126 32.4162 11.8713L29.0283 9.40983C28.2446 8.84043 28.6473 7.60081 29.6161 7.60081H33.8038C34.237 7.60081 34.621 7.32185 34.7549 6.90983L36.0489 2.92705Z" fill="#F7C531"/>
+                <path d="M62.0489 2.92705C62.3483 2.00574 63.6517 2.00574 63.9511 2.92705L65.2451 6.90983C65.379 7.32185 65.763 7.60081 66.1962 7.60081H70.3839C71.3527 7.60081 71.7554 8.84043 70.9717 9.40983L67.5838 11.8713C67.2333 12.126 67.0866 12.5773 67.2205 12.9894L68.5146 16.9721C68.8139 17.8934 67.7595 18.6596 66.9757 18.0902L63.5878 15.6287C63.2373 15.374 62.7627 15.374 62.4122 15.6287L59.0243 18.0902C58.2405 18.6596 57.1861 17.8934 57.4854 16.9721L58.7795 12.9894C58.9134 12.5773 58.7667 12.126 58.4162 11.8713L55.0283 9.40983C54.2446 8.84043 54.6473 7.60081 55.6161 7.60081H59.8038C60.237 7.60081 60.621 7.32185 60.7549 6.90983L62.0489 2.92705Z" fill="#F7C531"/>
+                </svg>
+                </p>
+              <h5 class="text-gray-400 mt-2">By <span class="font-semibold">Leon Kennedy</span></h5>
+            </div>
+          </div>
+          <!-- START item 2  -->
+
+          <!-- START item 3  -->
+          <div class="card md:w-1/4 px-4">
+            <div>
+              <img src="../images/content/trending-3.jpg" class="w-full h-full object-center object-cover rounded-xl hover:shadow-lg transition duration-300"/>
+            </div>
+            <div class="flex flex-col text-center">
+              <h3 class="text-2xl">Cranberry Salad</h3>
+              <p class="text-sm text-gray-400 flex justify-center mt-2">Master <svg width="74" height="22" viewBox="0 0 74 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0489 2.92705C10.3483 2.00574 11.6517 2.00574 11.9511 2.92705L13.2451 6.90983C13.379 7.32185 13.763 7.60081 14.1962 7.60081H18.3839C19.3527 7.60081 19.7554 8.84043 18.9717 9.40983L15.5838 11.8713C15.2333 12.126 15.0866 12.5773 15.2205 12.9894L16.5146 16.9721C16.8139 17.8934 15.7595 18.6596 14.9757 18.0902L11.5878 15.6287C11.2373 15.374 10.7627 15.374 10.4122 15.6287L7.02426 18.0902C6.24054 18.6596 5.18607 17.8934 5.48542 16.9721L6.7795 12.9894C6.91338 12.5773 6.76672 12.126 6.41623 11.8713L3.02827 9.40983C2.24456 8.84043 2.64734 7.60081 3.61606 7.60081H7.8038C8.23703 7.60081 8.62099 7.32185 8.75486 6.90983L10.0489 2.92705Z" fill="#F7C531"/>
+                <path d="M36.0489 2.92705C36.3483 2.00574 37.6517 2.00574 37.9511 2.92705L39.2451 6.90983C39.379 7.32185 39.763 7.60081 40.1962 7.60081H44.3839C45.3527 7.60081 45.7554 8.84043 44.9717 9.40983L41.5838 11.8713C41.2333 12.126 41.0866 12.5773 41.2205 12.9894L42.5146 16.9721C42.8139 17.8934 41.7595 18.6596 40.9757 18.0902L37.5878 15.6287C37.2373 15.374 36.7627 15.374 36.4122 15.6287L33.0243 18.0902C32.2405 18.6596 31.1861 17.8934 31.4854 16.9721L32.7795 12.9894C32.9134 12.5773 32.7667 12.126 32.4162 11.8713L29.0283 9.40983C28.2446 8.84043 28.6473 7.60081 29.6161 7.60081H33.8038C34.237 7.60081 34.621 7.32185 34.7549 6.90983L36.0489 2.92705Z" fill="#F7C531"/>
+                <path d="M62.0489 2.92705C62.3483 2.00574 63.6517 2.00574 63.9511 2.92705L65.2451 6.90983C65.379 7.32185 65.763 7.60081 66.1962 7.60081H70.3839C71.3527 7.60081 71.7554 8.84043 70.9717 9.40983L67.5838 11.8713C67.2333 12.126 67.0866 12.5773 67.2205 12.9894L68.5146 16.9721C68.8139 17.8934 67.7595 18.6596 66.9757 18.0902L63.5878 15.6287C63.2373 15.374 62.7627 15.374 62.4122 15.6287L59.0243 18.0902C58.2405 18.6596 57.1861 17.8934 57.4854 16.9721L58.7795 12.9894C58.9134 12.5773 58.7667 12.126 58.4162 11.8713L55.0283 9.40983C54.2446 8.84043 54.6473 7.60081 55.6161 7.60081H59.8038C60.237 7.60081 60.621 7.32185 60.7549 6.90983L62.0489 2.92705Z" fill="#F7C531"/>
+                </svg>
+                </p>
+              <h5 class="text-gray-400 mt-2">By <span class="font-semibold">Jane Beth</span></h5>
+            </div>
+          </div>
+          <!-- START item 3  -->
+
+          <!-- START item 4  -->
+          <div class="card md:w-1/4 px-4">
+            <div>
+              <img src="../images/content/trending-4.jpg" class="w-full h-full object-center object-cover rounded-xl hover:shadow-lg transition duration-300"/>
+            </div>
+            <div class="flex flex-col text-center">
+              <h3 class="text-2xl">Turkey Salad</h3>
+              <p class="text-sm text-gray-400 flex justify-center mt-2">Expert <svg width="74" height="22" viewBox="0 0 74 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.0489 2.92705C10.3483 2.00574 11.6517 2.00574 11.9511 2.92705L13.2451 6.90983C13.379 7.32185 13.763 7.60081 14.1962 7.60081H18.3839C19.3527 7.60081 19.7554 8.84043 18.9717 9.40983L15.5838 11.8713C15.2333 12.126 15.0866 12.5773 15.2205 12.9894L16.5146 16.9721C16.8139 17.8934 15.7595 18.6596 14.9757 18.0902L11.5878 15.6287C11.2373 15.374 10.7627 15.374 10.4122 15.6287L7.02426 18.0902C6.24054 18.6596 5.18607 17.8934 5.48542 16.9721L6.7795 12.9894C6.91338 12.5773 6.76672 12.126 6.41623 11.8713L3.02827 9.40983C2.24456 8.84043 2.64734 7.60081 3.61606 7.60081H7.8038C8.23703 7.60081 8.62099 7.32185 8.75486 6.90983L10.0489 2.92705Z" fill="#F7C531"/>
+                <path d="M36.0489 2.92705C36.3483 2.00574 37.6517 2.00574 37.9511 2.92705L39.2451 6.90983C39.379 7.32185 39.763 7.60081 40.1962 7.60081H44.3839C45.3527 7.60081 45.7554 8.84043 44.9717 9.40983L41.5838 11.8713C41.2333 12.126 41.0866 12.5773 41.2205 12.9894L42.5146 16.9721C42.8139 17.8934 41.7595 18.6596 40.9757 18.0902L37.5878 15.6287C37.2373 15.374 36.7627 15.374 36.4122 15.6287L33.0243 18.0902C32.2405 18.6596 31.1861 17.8934 31.4854 16.9721L32.7795 12.9894C32.9134 12.5773 32.7667 12.126 32.4162 11.8713L29.0283 9.40983C28.2446 8.84043 28.6473 7.60081 29.6161 7.60081H33.8038C34.237 7.60081 34.621 7.32185 34.7549 6.90983L36.0489 2.92705Z" fill="#F7C531"/>
+                <path d="M62.0489 2.92705C62.3483 2.00574 63.6517 2.00574 63.9511 2.92705L65.2451 6.90983C65.379 7.32185 65.763 7.60081 66.1962 7.60081H70.3839C71.3527 7.60081 71.7554 8.84043 70.9717 9.40983L67.5838 11.8713C67.2333 12.126 67.0866 12.5773 67.2205 12.9894L68.5146 16.9721C68.8139 17.8934 67.7595 18.6596 66.9757 18.0902L63.5878 15.6287C63.2373 15.374 62.7627 15.374 62.4122 15.6287L59.0243 18.0902C58.2405 18.6596 57.1861 17.8934 57.4854 16.9721L58.7795 12.9894C58.9134 12.5773 58.7667 12.126 58.4162 11.8713L55.0283 9.40983C54.2446 8.84043 54.6473 7.60081 55.6161 7.60081H59.8038C60.237 7.60081 60.621 7.32185 60.7549 6.90983L62.0489 2.92705Z" fill="#F7C531"/>
+                </svg>
+                </p>
+              <h5 class="text-gray-400 mt-2">By <span class="font-semibold">Maria Agatha</span></h5>
+            </div>
+          </div>
+          <!-- START item 4  -->
+        </div>
+
+        
+
+        
+    </section>
+    
+    <!-- END trending section  -->
+    <div class="h-screen"></div>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
